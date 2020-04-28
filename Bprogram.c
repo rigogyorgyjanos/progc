@@ -60,7 +60,7 @@ int read_from_file(FILE *f, DynArray *list){
         sum += num;
         da_append(list,num);
     }
-    printf("%d\n",sum);
+    //printf("%d\n",sum);
     return sum;
 }
 
